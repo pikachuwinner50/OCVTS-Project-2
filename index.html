@@ -9,6 +9,7 @@
         <h1>Hello, all potential Pokeconners!</h1>
         <p>Welcome to the PokeCon Registration form!</p>
         <h2>Beginning of Form</h2>
+        <form>
         <p>
             Are you aware for what this form is for?
         </p>
@@ -57,6 +58,46 @@
         <label for="favorite pokemon">Favorite Pokemon:</label>
         <input type="text" id="favorite pokemon" name="favorite pokemon"><br>
 
+        <fieldset>
+            <legend>Which Pokemon type(s) are your favorite?</legend>
+            <input type="checkbox" id="type-normal" name="favoriteTypes" value="Normal">
+            <label for="type-normal">Normal</label><br>
+            <input type="checkbox" id="type-fire" name="favoriteTypes" value="Fire">
+            <label for="type-fire">Fire</label><br>
+            <input type="checkbox" id="type-water" name="favoriteTypes" value="Water">
+            <label for="type-water">Water</label><br>
+            <input type="checkbox" id="type-electric" name="favoriteTypes" value="Electric">
+            <label for="type-electric">Electric</label><br>
+            <input type="checkbox" id="type-grass" name="favoriteTypes" value="Grass">
+            <label for="type-grass">Grass</label><br>
+            <input type="checkbox" id="type-ice" name="favoriteTypes" value="Ice">
+            <label for="type-ice">Ice</label><br>
+            <input type="checkbox" id="type-fighting" name="favoriteTypes" value="Fighting">
+            <label for="type-fighting">Fighting</label><br>
+            <input type="checkbox" id="type-poison" name="favoriteTypes" value="Poison">
+            <label for="type-poison">Poison</label><br>
+            <input type="checkbox" id="type-ground" name="favoriteTypes" value="Ground">
+            <label for="type-ground">Ground</label><br>
+            <input type="checkbox" id="type-flying" name="favoriteTypes" value="Flying">
+            <label for="type-flying">Flying</label><br>
+            <input type="checkbox" id="type-psychic" name="favoriteTypes" value="Psychic">
+            <label for="type-psychic">Psychic</label><br>
+            <input type="checkbox" id="type-bug" name="favoriteTypes" value="Bug">
+            <label for="type-bug">Bug</label><br>
+            <input type="checkbox" id="type-rock" name="favoriteTypes" value="Rock">
+            <label for="type-rock">Rock</label><br>
+            <input type="checkbox" id="type-ghost" name="favoriteTypes" value="Ghost">
+            <label for="type-ghost">Ghost</label><br>
+            <input type="checkbox" id="type-dragon" name="favoriteTypes" value="Dragon">
+            <label for="type-dragon">Dragon</label><br>
+            <input type="checkbox" id="type-dark" name="favoriteTypes" value="Dark">
+            <label for="type-dark">Dark</label><br>
+            <input type="checkbox" id="type-steel" name="favoriteTypes" value="Steel">
+            <label for="type-steel">Steel</label><br>
+            <input type="checkbox" id="type-fairy" name="favoriteTypes" value="Fairy">
+            <label for="type-fairy">Fairy</label>
+        </fieldset>
+
         <hr>
 
         <p>
@@ -79,6 +120,8 @@
             </label>
         </div>
 
+        <hr>
+
         <p>
             Do you plan to spend all of your money, livesavings, all bank accounts, and the money of your family and friends at PokeCon?
         </p>
@@ -87,14 +130,16 @@
         <input type="radio" id="no" name="spending money" value="no">
         <label for="no">No</label><br>
 
+        <hr>
+
         <p>
             End of form. Do you wish to submit?
         </p>
+        <button type="submit">Submit</button>
+    </form>
 
-        <input type="radio" id="yes" name="submit" value="yes">
-        <label for="yes">Yes</label><br>
-        <input type="radio" id="no" name="submit" value="no">
-        <label for="no">No</label><br>
+
+        <hr>
 
 
     </body>
