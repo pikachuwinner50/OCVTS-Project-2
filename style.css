@@ -1,0 +1,18 @@
+body {
+  /* Sets the image URL */
+  background-image: url('https://i.pinimg.com/236x/fc/a9/ac/fca9ac01c7ecd66e5db00fb81c08675f.jpg');
+
+  /* Prevents the image from repeating like a grid pattern */
+  background-repeat: no-repeat;
+
+  /* Centers the image perfectly on the screen */
+  background-position: center;
+
+  /* Stretches or shrinks the image to completely cover the screen */
+  background-size: cover;
+
+  /* Keeps the background fixed in place while you scroll */
+  background-attachment: fixed;
+
+color: #faf8f8;
+}
